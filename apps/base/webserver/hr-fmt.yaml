@@ -16,8 +16,8 @@ spec:
       interval: 1m
   values:
     image:
-      repository: ghcr.io/svalabs/flux-lab/sample-app
-      tag: v0.1.6
+      repository: ghcr.io/davidkaufmann/sample-app
+      tag: v0.1.5 # {"$imagepolicy": "flux-system:prod-instance:tag"}
     service:
       port: 8090
     env_map:
